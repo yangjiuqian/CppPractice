@@ -3,12 +3,14 @@
 #include "stock20.h"
 using namespace std;
 // constructors
-Stock::Stock()        // default constructor
-{
-    shares = 0;
-    share_val = 0.0;
-    total_val = 0.0;
-}
+
+//Stock::Stock()        // default constructor
+//{
+//    company = "no name";
+//    shares = 0;
+//    share_val = 0.0;
+//    total_val = 0.0;
+//}
 
 Stock::Stock(const std::string & co, long n, double pr)
 {
